@@ -1,0 +1,53 @@
+<apps>
+  <app keywords="psoc6,sensor,radar,presence">
+    <name>Radar Presence Application on FreeRTOS</name>
+    <id>mtb-example-radar-presence-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-sensors-radar-presence-freertos</uri>
+    <description>This application demonstrates the use of the radar presence application on the feather board on FreeRTOS.</description>
+    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version>
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sensor,radar,entrance counter">
+    <name>Radar Entrance Counter Application on FreeRTOS</name>
+    <id>mtb-example-radar-entrancecounter-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-sensors-radar-entrancecounter-freertos</uri>
+    <description>This application demonstrates the use of the radar entrance counter application on the feather board on FreeRTOS.</description>
+    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version>
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sensor,co2,pasco2,counter,entrance counter">
+    <name>PAS CO2 Application on FreeRTOS</name>
+    <id>mtb-example-pasco2-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-sensors-pasco2-freertos</uri>
+    <description>This application demonstrates the use of the pas co2 pressure sensor on the feather board on FreeRTOS.</description>
+    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version>
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+</apps>
