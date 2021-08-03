@@ -1,84 +1,84 @@
 <apps>
-  <app keywords="psoc6,sensor,xensiv,radar,presence">
+  <app keywords="psoc6,sensor,xensiv,radar,presence,csk">
     <name>Radar Presence Application on FreeRTOS</name>
     <id>mtb-example-radar-presence-freertos</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-sensors-radar-presence-freertos</uri>
-    <description>This application demonstrates the use of the radar presence application on the feather board on FreeRTOS.</description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-sensors-radar-presence-freertos</uri>
+    <description><![CDATA[This application demonstrates the use of the radar presence application on the feather board on FreeRTOS.<br><br>For more details, see the <a href="https://github.com/Infineon/xensiv-radar-sensing/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 hal spi cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sensor,xensiv,radar,entrance counter">
+  <app keywords="psoc6,sensor,xensiv,radar,entrance counter,csk">
     <name>Radar Entrance Counter Application on FreeRTOS</name>
     <id>mtb-example-radar-entrancecounter-freertos</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-sensors-radar-entrancecounter-freertos</uri>
-    <description>This application demonstrates the use of the radar entrance counter application on the feather board on FreeRTOS.</description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-sensors-radar-entrancecounter-freertos</uri>
+    <description><![CDATA[This application demonstrates the use of the radar entrance counter application on the feather board on FreeRTOS.<br><br>For more details, see the <a href="https://github.com/Infineon/xensiv-radar-sensing/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 hal spi cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sensor,xensiv,co2,pasco2,counter,entrance counter">
+  <app keywords="psoc6,sensor,xensiv,co2,pasco2,csk">
     <name>PAS CO2 Application on FreeRTOS</name>
     <id>mtb-example-pasco2-freertos</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-sensors-pasco2-freertos</uri>
-    <description>This application demonstrates the use of the pas co2 pressure sensor on the feather board on FreeRTOS.</description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-sensors-pasco2-freertos</uri>
+    <description><![CDATA[This application demonstrates the use of the pas co2 pressure sensor on the feather board on FreeRTOS.<br><br>For more details, see the <a href="https://github.com/Infineon/sensor-xensiv-pasco2/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 hal i2c</req_capabilities>
     <versions>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sensor,xensiv,radar,presence,counter,entrance counter">
+  <app keywords="psoc6,sensor,xensiv,radar,presence,counter,entrance counter,csk">
     <name>Radar Sensor MQTT Client</name>
     <id>mtb-example-sensors-radar-anycloud-mqtt-client</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-sensors-radar-anycloud-mqtt-client</uri>
-    <description>This application demonstrates how to implement an MQTT client for publishing presence or entrance counter events to the cloud.</description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-sensors-radar-anycloud-mqtt-client</uri>
+    <description><![CDATA[This application demonstrates how to implement an MQTT client for publishing presence or entrance counter events to the cloud.<br><br>For more details, see the <a href="https://github.com/Infineon/xensiv-radar-sensing/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 hal spi cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sensor,xensiv,co2,pasco2">
+  <app keywords="psoc6,sensor,xensiv,co2,pasco2,csk">
     <name>PAS CO2 Sensor MQTT Client</name>
     <id>mtb-example-sensors-pasco2-anycloud-mqtt-client</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-sensors-pasco2-anycloud-mqtt-client</uri>
-    <description>This application demonstrates how to implement an MQTT client for publishing the current PPM level to the cloud.</description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-sensors-pasco2-anycloud-mqtt-client</uri>
+    <description><![CDATA[This application demonstrates how to implement an MQTT client for publishing the current PPM level to the cloud.<br><br>For more details, see the <a href="https://github.com/Infineon/sensor-xensiv-pasco2/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 hal i2c</req_capabilities>
     <versions>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>

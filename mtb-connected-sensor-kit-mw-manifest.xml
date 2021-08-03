@@ -2,37 +2,37 @@
   <middleware>
     <name>sensor-xensiv-pasco2</name>
     <id>sensor-xensiv-pasco2</id>
-    <uri>https://github.com/cypresssemiconductorco/sensor-xensiv-pasco2</uri>
-    <desc>Driver for the XENSIV&#8482; PAS CO2 sensor.</desc>
+    <uri>https://github.com/Infineon/sensor-xensiv-pasco2</uri>
+    <desc><![CDATA[Driver for the XENSIV(TM) PAS CO2 sensor.<br><br><b>Note:</b>This is an Early Access Software for PASCO2 devices in ModusToolbox.<br>This software is made available for evaluation purposes only and is not recommended for production development.]]></desc>
     <category>Board Utils</category>
-    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>psoc6 hal i2c</req_capabilities>
     <versions>
-      <version flow_version="1.0,2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
       </version>
-      <version flow_version="1.0,2.0">
-        <num>0.5.0 release</num>
-        <commit>release-v0.5.0</commit>
-        <desc>0.5.0 release</desc>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>0.6.0 release</num>
+        <commit>release-v0.6.0</commit>
+        <desc>0.6.0 release</desc>
       </version>
     </versions>
   </middleware>
   <middleware>
     <name>xensiv-radar-sensing</name>
     <id>xensiv-radar-sensing</id>
-    <uri>https://github.com/cypresssemiconductorco/xensiv-radar-sensing</uri>
-    <desc>Infineon Radar Sensing Middleware for the XENSIV&#8482; BGT60TR13C sensor.</desc>
+    <uri>https://github.com/Infineon/xensiv-radar-sensing</uri>
+    <desc><![CDATA[Infineon Radar Sensing Middleware for the XENSIV(TM) BGT60TR13C sensor.<br><br><b>Note:</b>This is an Early Access Software for BGT60TR13C devices in ModusToolbox.<br>This software is made available for evaluation purposes only and is not recommended for production development.]]></desc>
     <category>Board Utils</category>
-    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>psoc6 hal spi cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version flow_version="1.0,2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
       </version>
-      <version flow_version="1.0,2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
         <desc>0.5.0 release</desc>
